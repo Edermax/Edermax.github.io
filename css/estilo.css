@@ -136,6 +136,7 @@ p{
     h1{
         font-size: 3.5em;
     }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -154,4 +155,8 @@ p{
     h1{
         font-size: 5.5em;
     }
+}
+
+.espacamento{
+    margin-top: 10%;
 }
