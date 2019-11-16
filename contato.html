@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Planos - Corporis Gimnazio</title>
+        <!-- FavIcon-->
+        <link rel="icon" href="img/pics/favicon-site.ico">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--CSS-->
+        <link rel="stylesheet" href="css/estilo.css">
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/e1f9ce3880.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- Barra de navegação começo -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+            <div class="container">
+                <a href="#">
+                    <img src="img/pics/logo-left.png" width="60" title="Foco é a chave para o sucesso!">
+                </a>
+    
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="servico.html" class="nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="plano.html" class="nav-link">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> <!-- Fim Barra de navegação -->
+        
+        <div class="espacamento"></div>
+
+            <section id="contato">
+                <div class="container">
+                    <form class="personalizado-form">
+                        <h3 class="text-center">Alguma dúvida ? entre em contato conosco!</h3>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                            </div>
+                            <div class="form-group col-md-6">
+                                    <label for="sobre">Sobrenome</label>
+                                    <input type="text" class="form-control" id="sobre" placeholder="Seu Sobrenome">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="city">Cidade</label>
+                                    <input type="text" class="form-control" id="city" placeholder="Sua Cidade">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cep">CEP</label>
+                                    <input type="text" class="form-control" id="cep" placeholder="CEP">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="estado">Estado</label>
+                                    <input type="text" class="form-control" id="estado" placeholder="Estado">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="pais">País</label>
+                                    <input type="text" class="form-control" id="pais" placeholder="País">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">Qual sua dúvida?</label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-sm btn-block">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+    </body>
+</html>
